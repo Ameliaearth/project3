@@ -1,0 +1,30 @@
+*,*::after,*::before{
+    box-sizing:border-box;
+}
+img{
+	max-width:100%;
+	margin:0 auto;
+    vertical-align: middle;
+}
+
+
+
+//margin
+.mt-32{
+    margin-top: 32px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mr-4{
+    margin-right: 4px;
+}
+
+
+//fsz
+.fs-32{
+    font-size: 32px;
+}
