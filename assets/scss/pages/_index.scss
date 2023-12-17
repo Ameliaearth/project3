@@ -69,12 +69,46 @@
 .list8{
     text-decoration:none;
     &:hover{
-        border-bottom:1px solid #000;
+        background-color: yellow;
+        border-radius: 50px;
     }
 }
 .list9{
     text-decoration:none;
     &:hover{
-        border-bottom:1px solid #000;
+        text-decoration:underline;
     }
+}
+.pic1{
+    background-image: url(../images/online.jpg);
+    height: 390px;
+    background-position: center;
+    background-size: cover;
+}
+.list10{
+    border:1px solid #000;
+    border-left:4px solid #000;
+    &:hover{
+        background: yellow;
+    }
+}
+
+//swiper
+.swiper{
+    background-color: #000;
+}
+.swiper-wrapper {
+    transition-timing-function: linear;
+/*.swiper-wrapper 的部分會使用 transition-timing-function: linear;
+能創造出跑馬燈均速的效果。*/
+}
+.swiper-slide {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+    width: auto;
+    color: #FBFF22;
+    background: #000;
 }
