@@ -1,9 +1,9 @@
-.swiper {
+//輪播
+.swiper-p {
     width: 100%;
     height: auto;
 }
-
-.swiper-slide {
+.swiper-slide-p {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -11,17 +11,17 @@
     justify-content: center;
     align-items: center;
 }
-
-.swiper-slide img {
+.swiper-slide-p img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .list3{
     position: relative;
 }
+
+//文字
 .list4{
     position: absolute;
     top: 150px;
@@ -29,15 +29,25 @@
 }
 .list5{
     position: absolute;
-    bottom:188px;
+    bottom:60px;
+    left:15%;
 }
+
+//6個按鍵
 .list6{
     padding: 35px 58px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }
 .list7{
-    padding: 23px;
+    padding: 23px 0;
     p{
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 .item1{
@@ -58,6 +68,8 @@
     }
 }
 
+
+//icon
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -66,6 +78,7 @@
     'opsz' 24
 }
 
+//RECENT
 .list8{
     text-decoration:none;
     &:hover{
@@ -79,6 +92,16 @@
         text-decoration:underline;
     }
 }
+.list12{
+    width: 100%;
+    height: 225px;
+}
+.pic2{
+    background-size: cover;
+    height: 225px;
+}
+
+//ONLINE
 .pic1{
     background-image: url(../images/online.jpg);
     height: 390px;
@@ -111,4 +134,39 @@
     width: auto;
     color: #FBFF22;
     background: #000;
+}
+
+//card
+.list11, .title {
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        color: #000000;
+    }
+}
+.-rotate-2 {
+    transform: rotate(-2deg) !important;
+}
+.rotate-2 {
+    transform: rotate(2deg) !important;
+}
+.text-black {
+    color: #000000;
+}
+.albums {
+    padding-top: 60px;  
+    padding-bottom: 60px;  
+}
+.albums-tag {
+    transform: translate(-50%, -50%) rotate(4deg);
+}
+.pic {
+    object-fit: cover;
+    width: 100%;
+    height: 291px;
+    @media(min-width:576px) {
+        height: 274px;
+    }
 }
