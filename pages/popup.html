@@ -12,13 +12,27 @@
 
     <title>popup</title>
 </head>
-<body>
-    <%- include('./layout/header'); -%>
+<body class="bg-white">
+
+    <div class="d-flex justify-content-center ptb-21">
+        <div class="container">
+            <h4 class="fs-4 fw-bold text-center">立刻成為7TAO會員</h4>
+        </div>
+        <button type="button" class="btn-close text-end me-4 text-dark" aria-label="Close"></button>
+    </div>
+    <div class="border-top border-dark border-2">
+        <p class="text-center mt-5 mb-4">立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。<br>
+            您也可以先報名活動，日後再註冊帳號，<br>
+            系統會在認證您的Email後，協助您找回舊的訂單。</p>
+        <div class="text-center d-flex justify-content-center align-items-center">
+            <a class="text-decoration-none text-warning link-light bg-dark fs-20 btn w-25 rounded-0 mb-3" href="login.html">
+                立即成為會員
+            </a>
+        </div>
+    </div>
 
 
 
-
-    <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
 </body>

@@ -19,39 +19,26 @@
 <body>
     <%- include('./layout/header'); -%>
 
-    <!--pic1-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-12 border border-dark border-2 px-4 py-4">
-                <img class="pic" src="../assets/images/09.jpg" alt="返老還童-制服聯誼">
+        <div class="row d-flex justify-content-center align-items-center flex-column">
+            <div class="text-center mt-3 mb-3">
+                <img src="../assets/images/sparkler.png" width="32" alt="sparkler">
+                <p class="fs-4 fw-bold">會員登入</p>
             </div>
-            <div class="col-md-2 col-12 d-flex justify-content-between flex-md-column ">
-                <div class="border border-dark border-2 py-2 plr-40">
-                    <p class="fs-48 text-center fw-bold">2023</p>
+            <div class="row d-flex justify-content-center align-items-center flex-column">
+                <div class="col-12 col-md-4 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold mb-2">帳號</label>
+                    <input type="name" class="form-control border-dark rounded-0 border-2 py-2 ps-3 fs-20 mb-3" id="exampleFormControlInput1" placeholder="請輸入帳號">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold mb-2">密碼</label>
+                    <input type="name" class="form-control border-dark rounded-0 border-2 py-2 ps-3 fs-20 mb-3" id="exampleFormControlInput1" placeholder="請輸入密碼">
                 </div>
-                    <div class="mx-auto mt-3">
-                        <div class="date d-flex flex-md-column flex-row align-items-center justify-content-between border border-2 border-dark position-relative">
-                        <div class="d-flex flex-column align-items-center">
-                            <h2 class="text-center list14 fw-bold">
-                            MAY
-                            <br>
-                            19
-                            </h2>
-                        </div>
-                        <div class="time d-flex flex-column justify-content-center align-items-center">
-                            <p class="mb-0 lh-1 fw-bold">12:00</p>
-                            <p class="mb-0 lh-1 fw-bold">|</p>
-                            <p class="mb-0 lh-1 fw-bold">20:00</p>
-                        </div>
-                        </div>
-                    </div>
+                <div class="text-center d-flex justify-content-center align-items-center flex-column mb-60">
+                    <a class="text-decoration-none text-white bg-dark fs-20 btn w-25 rounded-0 mb-3" href="#">登入
+                        <span class="material-symbols-outlined align-bottom">keyboard_double_arrow_right</span>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <!--content-->
-    <div class="container">
-        <p class="fs-60 fw-bold">返老還童-制服聯誼</p>
     </div>
 
 
