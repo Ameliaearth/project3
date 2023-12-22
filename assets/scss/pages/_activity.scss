@@ -1,0 +1,44 @@
+//EVENT
+.list10{
+    border:1px solid #000;
+    border-left:4px solid #000;
+    &:hover{
+        background: yellow;
+    }
+}
+
+//content
+.list8{
+    text-decoration:none;
+    &:hover{
+        background-color: yellow;
+        border-radius: 50px;
+    }
+}
+.list9{
+    text-decoration:none;
+    &:hover{
+        text-decoration:underline;
+    }
+}
+.list12{
+    width: 100%;
+    height: 225px;
+}
+.pic2{
+    background-size: cover;
+    height: 225px;
+}
+
+//分頁
+.list13{
+    &:hover{
+        background-color: #000;
+    }
+}
+.p-list1{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
